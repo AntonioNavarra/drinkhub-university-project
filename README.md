@@ -62,8 +62,9 @@ Prima di iniziare, assicurati di avere installato quanto segue:
 © 2024 Antonio Navarra e Vincenzo Giordano
 
 # Contatti
-navarra.antonio99@gmail.com (Antonio Navarra)
-... metti il tuo vinsss
+- Antonio Navarra email: navarra.antonio99@gmail.com / cell: (+39) 3883562926
+- Vincenzo giordano email: vincenzo.giordano14@studenti.unina.it / cell: (+39) 3312687597;
+
 
 # Contributi e Feedback
 Se vuoi contribuire o fornire feedback, sentiti libero di aprire una nuova issue o inviare una richiesta di pull. Siamo aperti a miglioramenti e collaborazioni!
