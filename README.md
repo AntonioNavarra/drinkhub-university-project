@@ -5,10 +5,10 @@ Il progetto è un sistema di gestione per un bar virtuale con l'obiettivo è di 
 Il sistema può essere accessibile tramite applicazione per cellulare o tablet, rendendo l'esperienza utente più comoda e portatile.
 
 # Tabella dei Contenuti
-Come Iniziare
-Struttura del Progetto
-Licenza
-Contatti
+- [Come Iniziare]
+- [Struttura del Progetto]
+- [Licenza]
+- [Contatti]
 
 # Come Iniziare
 
