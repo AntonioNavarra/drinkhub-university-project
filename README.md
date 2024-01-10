@@ -5,54 +5,40 @@ Il progetto è un sistema di gestione per un bar virtuale con l'obiettivo è di 
 Il sistema può essere accessibile tramite applicazione per cellulare o tablet, rendendo l'esperienza utente più comoda e portatile.
 
 # Tabella dei Contenuti
-- [Come Iniziare]
-- [Struttura del Progetto]
-- [Licenza]
-- [Contatti]
+- Come Iniziare
+- Struttura del Progetto
+- Licenza
+- Contatti
 
 # Come Iniziare
-
 Segui questi passaggi per configurare e avviare l'applicazione "DrinkHub" sul tuo ambiente di sviluppo.
 
 # Prerequisiti
-
 Prima di iniziare, assicurati di avere installato quanto segue:
-
 - [Android Studio](https://developer.android.com/studio) (versione consigliata XYZ)
 - [Git](https://git-scm.com/)
 
 # Installazione
-
 1. Clona il repository:
-
     ```bash
     git clone https://github.com/tuonome/drinkhub.git
     ```
-
 2. Apri il progetto in Android Studio:
-
     - Avvia Android Studio.
     - Seleziona "Open an existing Android Studio project".
     - Naviga nella cartella in cui hai clonato il repository e seleziona il file `build.gradle` nella cartella `app`.
-
 3. Configura il dispositivo virtuale o connetti un dispositivo fisico.
 
-## Configurazione delle Variabili d'Ambiente
-
+# Configurazione delle Variabili d'Ambiente
 1. Copia il file di configurazione di esempio:
-
     ```bash
     cp app/src/main/res/raw/config.example.xml app/src/main/res/raw/config.xml
-    ```
-
+        ```
 2. Apri il file `config.xml` e inserisci le tue chiavi API o altre configurazioni necessarie.
 
 # Esecuzione dell'Applicazione
-
 1. Avvia l'applicazione da Android Studio.
-
 2. Seleziona il dispositivo virtuale o fisico su cui vuoi eseguire l'applicazione.
-
 3. Clicca su "Run" in Android Studio.
 
 # Esempio di comandi
@@ -62,7 +48,6 @@ npm install
 npm start
 
 # Struttura del Progetto
-
 - `app`: Contiene il codice specifico dell'app Android.
   - `src`: Codice sorgente dell'app.
     - `main`: Codice principale dell'app.
@@ -74,7 +59,6 @@ npm start
           - `classes`: Classi del progetto (cart,product,result).
       - `res`: Risorse dell'app (layout, drawable, values, ecc.).
   - `test`: Test unitari e di strumentazione.
-
 - `gradle`: Configurazioni e script Gradle.
 - `build`: Contiene i file e le cartelle generati durante la compilazione.
 - `docs`: Documentazione del progetto.
