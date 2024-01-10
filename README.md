@@ -4,7 +4,7 @@ Consegna numero 3 : Gestione Vendita bevande
 Il progetto è un sistema di gestione per un bar virtuale con l'obiettivo è di consentire a qualsiasi utente (cliente) di registrarsi, navigare tra le bevande disponibili (alcolici,analcolici,frullati), effettuare acquisti simulati e gestirne il pagamento. Le informazioni relative ai prodotti e agli utenti sono conservate in un database SQL (PostgreSQL). Gli utenti possono selezionare le bevande in due modalità: 1) Utlizzando la barra di ricerca con la possibilità di aggiungere i filtri. 2) Sfruttando le liste personalizzate : "raccomandati" (Elenco dei 10 drink consigliati da DrinkHub) o "preferiti" (Elenco di 10 drink scelti sulla base dello storico vendite).
 Il sistema può essere accessibile tramite applicazione per cellulare o tablet, rendendo l'esperienza utente più comoda e portatile.
 
-## Tabella dei Contenuti
+# Tabella dei Contenuti
 Come Iniziare
 Struttura del Progetto
 Licenza
