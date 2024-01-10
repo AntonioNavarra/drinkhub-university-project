@@ -41,7 +41,6 @@ Prima di iniziare, assicurati di avere installato quanto segue:
 3. Clicca su "Run" in Android Studio.
 
 # Esempio di comandi
-cd /percorso/della/tua/cartella.
 git clone https://github.com/AntonioNavarra/progetto.git
 
 # Struttura del Progetto
