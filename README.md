@@ -29,6 +29,10 @@ Prima di iniziare, assicurati di avere installato quanto segue:
 - [Android Studio](https://developer.android.com/studio) (versione consigliata Hedgehog 2023 1.1)
 - [Git](https://git-scm.com/)
 
+# Creazione del Database
+1. Creazione di un database in PostgreSQL
+2. Una volta creato il database eseguire il dump presente all'interno del folder `database`
+
 # Installazione
 1. Clona il repository: `git clone https://github.com/AntonioNavarra/drinkhub-university-project.git`
 2. Apri il progetto in Android Studio:
