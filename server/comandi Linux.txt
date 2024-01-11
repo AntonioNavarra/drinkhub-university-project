@@ -3,5 +3,5 @@ Prima di procedere installare la libreria su Ubuntu:
 
 Per compilare utilizzare questi comandi
 1. Dirigersi nella directorty del server
-2. gcc -o server server.c -I/usr/include/postgresql -lpq
+2. gcc -o serverDrinkhub serverDrinkhub.c -I/usr/include/postgresql -lpq
 3. ./server
