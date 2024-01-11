@@ -1,3 +1,7 @@
-PER COMPILARE
-1. gcc -o server server.c -I/usr/include/postgresql -lpq
-2. ./server
+Prima di procedere installare la libreria su Ubuntu:
+1. sudo apt-get install libpq-dev
+
+Per compilare utilizzare questi comandi
+1. Dirigersi nella directorty del server
+2. gcc -o server server.c -I/usr/include/postgresql -lpq
+3. ./server
