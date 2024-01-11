@@ -1,0 +1,46 @@
+Progettazione del Server - DrinkHub
+
+1. **Strutture Dati:**
+   - `struct User`: Rappresenta un utente con username, password, stato di login e categoria preferita.
+   - `struct Product`: Rappresenta un prodotto con nome, prezzo e URL dell'immagine.
+
+2. **Database:**
+   - Connessione al database PostgreSQL tramite la libreria libpq-fe.h.
+   - Utilizzo di una funzione `establishDBConnection` per stabilire la connessione.
+   - Funzione `executeQuery` per eseguire le query al database in modo sicuro.
+
+3. **Gestione Utenti:**
+   - Registrazione e login degli utenti.
+   - La funzione `registerUser` inserisce un nuovo utente nel database.
+   - La funzione `loginUser` verifica le credenziali dell'utente nel database.
+
+4. **Carrello degli Utenti:**
+   - Aggiunta e visualizzazione dei prodotti nel carrello.
+   - Funzione `addToCart` aggiunge un prodotto al carrello dell'utente nel database.
+   - Funzione `getCart` ottiene i prodotti nel carrello di un utente dal database.
+
+5. **Prodotti:**
+   - Ottenimento dei prodotti consigliati e della categoria preferita.
+   - Funzione `getTopRecommendedProducts` restituisce i primi 10 prodotti consigliati.
+   - Funzione `getFavoriteCategoryProducts` restituisce i prodotti della categoria preferita dell'utente.
+
+6. **Server Multithreading:**
+   - Accettazione di connessioni multiple usando thread.
+   - Ogni connessione viene gestita da un thread separato attraverso la funzione `handleConnection`.
+
+7. **Protocollo di Comunicazione:**
+   - Comunicazione tra il client e il server tramite messaggi delimitati da `;`.
+   - Il server interpreta il primo token del messaggio per determinare l'azione richiesta.
+
+8. **Chiusura e Liberazione delle Risorse:**
+   - Chiusura del socket e deallocazione della memoria al termine della connessione.
+
+9. **Error Handling:**
+   - Gestione degli errori durante la connessione al database, esecuzione delle query e altre operazioni.
+
+10. **Messaggi al Client:**
+    - Risposta al client mediante la funzione `sendMessageToClient`.
+
+11. **Configurazioni:**
+    - Costanti come `PORT_NUMBER` e `BUFFER_SIZE` sono utilizzate per configurare il server.
+

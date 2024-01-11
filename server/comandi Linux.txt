@@ -1,0 +1,3 @@
+PER COMPILARE
+1. gcc -o server server.c -I/usr/include/postgresql -lpq
+2. ./server
